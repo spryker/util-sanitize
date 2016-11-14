@@ -6,7 +6,9 @@
 
 namespace Spryker\Service\UtilSanitize;
 
-class UtilSanitizeDependencyProvider
+use Spryker\Service\Kernel\AbstractBundleDependencyProvider;
+
+class UtilSanitizeDependencyProvider extends AbstractBundleDependencyProvider
 {
 
 }
